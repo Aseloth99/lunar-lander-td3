@@ -1,0 +1,16 @@
+{
+  "lr": 0.00035384535909065536,
+  "lr_linear": false,
+  "n_envs": 16,
+  "n_steps": 1024,
+  "batch": 128,
+  "gae_lambda": 0.98,
+  "gamma": 0.999,
+  "n_epochs": 10,
+  "ent_coef": 0.008464252827630286,
+  "clip_range": 0.2,
+  "net": [
+    64,
+    64
+  ]
+}

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Lunar Lander TD3: a crash-averse deep-RL agent for Gymnasium LunarLanderContinuous"
+authors:
+  - family-names: "Açık"
+    given-names: "Mustafa"
+    affiliation: "Department of Computer Engineering, Faculty of Engineering, Karamanoğlu Mehmetbey University, Karaman, Türkiye"
+    orcid: "https://orcid.org/0009-0000-6989-1268"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/Aseloth99/lunar-lander-td3"
+date-released: "2026-10-31"
+keywords: [reinforcement-learning, td3, sac, lunar-lander, gymnasium, stable-baselines3]

@@ -1,0 +1,20 @@
+{
+  "steps": 1600000,
+  "lr": 0.0003,
+  "lr_linear": false,
+  "buffer": 1000000,
+  "batch": 256,
+  "gamma": 0.995,
+  "tau": 0.01,
+  "learning_starts": 10000,
+  "net": [
+    400,
+    300
+  ],
+  "train_freq": 2,
+  "gradient_steps": 1,
+  "ent_coef": "auto",
+  "target_entropy": -4.0,
+  "train_touchdown_k": 100.0,
+  "train_touchdown_v0": 0.25
+}

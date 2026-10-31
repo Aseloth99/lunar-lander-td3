@@ -1,0 +1,56 @@
+{
+  "algo": "sac",
+  "tag": "v9lowent",
+  "seed": 1,
+  "cfg": {
+    "steps": 1600000,
+    "lr": 0.0003,
+    "lr_linear": false,
+    "buffer": 1000000,
+    "batch": 256,
+    "gamma": 0.995,
+    "tau": 0.01,
+    "learning_starts": 10000,
+    "net": [
+      400,
+      300
+    ],
+    "train_freq": 2,
+    "gradient_steps": 1,
+    "ent_coef": "auto",
+    "target_entropy": -4.0
+  },
+  "resumed_at": [],
+  "env_id": "LunarLander-v3",
+  "continuous": true,
+  "device": "cpu",
+  "threads": 1,
+  "eval_every": 10000,
+  "val_curve_seeds": [
+    5000,
+    5019
+  ],
+  "val_seeds": [
+    5000,
+    5099
+  ],
+  "versions": {
+    "python": "3.12.3",
+    "torch": "2.4.1+cpu",
+    "sb3": "2.4.1",
+    "gymnasium": "1.0.0"
+  },
+  "started": "2026-10-26 03:10:59",
+  "argv": [
+    "--algo",
+    "sac",
+    "--seed",
+    "1",
+    "--tag",
+    "v9lowent",
+    "--config",
+    "configs/sac_v9lowent.json",
+    "--resume",
+    "--overwrite"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "lr": 0.00073,
+  "lr_linear": true,
+  "buffer": 1000000,
+  "batch": 256,
+  "gamma": 0.99,
+  "tau": 0.01,
+  "learning_starts": 10000,
+  "net": [
+    400,
+    300
+  ],
+  "train_freq": 1,
+  "gradient_steps": 1,
+  "ent_coef": "auto"
+}

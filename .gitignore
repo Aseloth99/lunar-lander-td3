@@ -1,0 +1,13 @@
+.pydeps/
+.venv/
+__pycache__/
+*.pyc
+# eğitim/değerlendirme çıktıları (yeniden üretilebilir)
+runs/*/*/seed*/ckpt/
+runs/*/*/seed*/resume/
+runs/*/*/seed*/monitor/
+runs/*/*/seed*/*.csv
+runs/*/*/seed*/*_summary.json
+runs/*/*/seed*/final.zip
+runs/*/*/seed*/progress.json
+logs/

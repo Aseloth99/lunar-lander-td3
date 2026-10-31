@@ -1,0 +1,58 @@
+{
+  "algo": "td3",
+  "tag": "v6soft",
+  "seed": 1,
+  "cfg": {
+    "steps": 1600000,
+    "lr": 0.001,
+    "lr_linear": false,
+    "buffer": 200000,
+    "batch": 256,
+    "gamma": 0.995,
+    "tau": 0.01,
+    "learning_starts": 10000,
+    "net": [
+      400,
+      300
+    ],
+    "train_freq": 2,
+    "gradient_steps": 1,
+    "noise_std": 0.2,
+    "policy_delay": 2,
+    "train_touchdown_k": 50.0,
+    "train_touchdown_v0": 0.3
+  },
+  "resumed_at": [],
+  "env_id": "LunarLander-v3",
+  "continuous": true,
+  "device": "cpu",
+  "threads": 1,
+  "eval_every": 10000,
+  "val_curve_seeds": [
+    5000,
+    5019
+  ],
+  "val_seeds": [
+    5000,
+    5099
+  ],
+  "versions": {
+    "python": "3.12.3",
+    "torch": "2.4.1+cpu",
+    "sb3": "2.4.1",
+    "gymnasium": "1.0.0"
+  },
+  "started": "2026-10-22 08:51:02",
+  "argv": [
+    "--algo",
+    "td3",
+    "--seed",
+    "1",
+    "--tag",
+    "v6soft",
+    "--config",
+    "configs/td3_v6soft.json",
+    "--resume",
+    "--overwrite"
+  ]
+}

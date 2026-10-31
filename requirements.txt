@@ -1,0 +1,24 @@
+# Python 3.10–3.12. Exact versions used for every result in this repository (Ubuntu 24.04, Python 3.12, CPU).
+#
+# Install (see README for Windows / macOS / Linux):
+#   pip install --upgrade pip swig        # SWIG first: box2d-py (the physics engine) is compiled during install
+#   pip install -r requirements.txt
+# Linux, CPU only (avoids the ~2 GB CUDA download):
+#   pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple
+# NVIDIA GPU (optional, training only):
+#   pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu121 --extra-index-url https://pypi.org/simple
+torch==2.4.1
+numpy==1.26.4
+stable-baselines3==2.4.1
+gymnasium==1.0.0
+box2d-py==2.3.8
+pygame==2.6.1
+pandas==2.3.3
+scipy==1.17.1
+matplotlib==3.11.2
+pillow==12.3.0
+imageio==2.38.1
+optuna==4.5.0
+tqdm==4.70.1
+PyYAML==6.0.3
+swig==4.5.1

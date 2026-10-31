@@ -1,0 +1,535 @@
+{
+  "rule": "results/secim_kurali_v8.md (kural 1: frenli SAC'ların en iyisi; kural 2: genel, güvenlik önce)",
+  "data": "bağımsız doğrulama 90000-91999 (2000 bölüm/tohum)",
+  "decided": "2026-10-30 07:54:46",
+  "stage10_pick": "sac/v10brake@1600k",
+  "stage10_ranking": [
+    "sac/v10brake@1600k",
+    "sac/v10soft@1600k",
+    "sac/v10brake@800k",
+    "sac/v10soft@800k"
+  ],
+  "main": "td3/v6soft@800k",
+  "main_video_seed": 1,
+  "ranking": [
+    "td3/v6soft@800k",
+    "sac/v10brake@1600k",
+    "td3/v6brake@1600k",
+    "sac/v9big@1600k",
+    "sac/v9lowent@1600k",
+    "sac/v10soft@1600k",
+    "td3/v4big@1600k",
+    "sac/v10brake@800k",
+    "sac/v10soft@800k",
+    "sac/v9lowent@800k",
+    "sac/v9big@800k"
+  ],
+  "table": [
+    {
+      "group": "sac/v10brake@800k",
+      "eligible": false,
+      "crashes": 1,
+      "below200": 37,
+      "n": 10000,
+      "mean": 271.94982108950575,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 0,
+          "below200": 3,
+          "mean": 281.58785469720476,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 0,
+          "below200": 3,
+          "mean": 269.73528854030536,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 0,
+          "below200": 25,
+          "mean": 259.0283804681258,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 1,
+          "below200": 6,
+          "mean": 269.5359206043165,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 279.8616611375764,
+          "n": 2000
+        }
+      ],
+      "best_seed": 0
+    },
+    {
+      "group": "sac/v10brake@1600k",
+      "eligible": true,
+      "crashes": 0,
+      "below200": 0,
+      "n": 10000,
+      "mean": 284.96725606525024,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 285.4058814327695,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 286.37086421085513,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 282.8623439887669,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 282.5085907060389,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 287.68859998782074,
+          "n": 2000
+        }
+      ],
+      "best_seed": 4
+    },
+    {
+      "group": "sac/v10soft@800k",
+      "eligible": false,
+      "crashes": 2,
+      "below200": 8,
+      "n": 10000,
+      "mean": 277.9626291777478,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 2,
+          "below200": 7,
+          "mean": 279.718959451319,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 0,
+          "below200": 1,
+          "mean": 276.65599261720877,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 276.6800949780074,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 274.63302339893426,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 282.12507544326945,
+          "n": 2000
+        }
+      ],
+      "best_seed": 4
+    },
+    {
+      "group": "sac/v10soft@1600k",
+      "eligible": true,
+      "crashes": 1,
+      "below200": 5,
+      "n": 10000,
+      "mean": 285.1777447457194,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 288.32341245296294,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 282.8817945190001,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 281.8819269989845,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 1,
+          "below200": 1,
+          "mean": 284.5126870982342,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 0,
+          "below200": 4,
+          "mean": 288.28890265941516,
+          "n": 2000
+        }
+      ],
+      "best_seed": 0
+    },
+    {
+      "group": "td3/v4big@1600k",
+      "eligible": true,
+      "crashes": 2,
+      "below200": 2,
+      "n": 10000,
+      "mean": 290.60940825474063,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 290.7344753293389,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 290.9478280393323,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 290.5678993954132,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 290.237086099065,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 2,
+          "below200": 2,
+          "mean": 290.55975241055387,
+          "n": 2000
+        }
+      ],
+      "best_seed": 1
+    },
+    {
+      "group": "td3/v6brake@1600k",
+      "eligible": true,
+      "crashes": 0,
+      "below200": 2,
+      "n": 10000,
+      "mean": 289.7729840436267,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 0,
+          "below200": 2,
+          "mean": 288.9846963888533,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 290.23889638271856,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 289.7731808235015,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 289.5992734873337,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 290.2688731357263,
+          "n": 2000
+        }
+      ],
+      "best_seed": 4
+    },
+    {
+      "group": "td3/v6soft@800k",
+      "eligible": true,
+      "crashes": 0,
+      "below200": 0,
+      "n": 10000,
+      "mean": 289.4316225100732,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 289.5330169342091,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 290.13825429127553,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 289.66109134925716,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 289.08217072422843,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 288.7435792513959,
+          "n": 2000
+        }
+      ],
+      "best_seed": 1
+    },
+    {
+      "group": "sac/v9lowent@800k",
+      "eligible": false,
+      "crashes": 5,
+      "below200": 13,
+      "n": 10000,
+      "mean": 279.36415136800287,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 286.67124243246417,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 1,
+          "below200": 4,
+          "mean": 278.14780127658526,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 4,
+          "below200": 4,
+          "mean": 277.48820654477197,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 0,
+          "below200": 3,
+          "mean": 270.91416782068376,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 0,
+          "below200": 2,
+          "mean": 283.59933876550923,
+          "n": 2000
+        }
+      ],
+      "best_seed": 0
+    },
+    {
+      "group": "sac/v9lowent@1600k",
+      "eligible": true,
+      "crashes": 1,
+      "below200": 2,
+      "n": 10000,
+      "mean": 285.92184987741666,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 286.69355949196716,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 0,
+          "below200": 1,
+          "mean": 283.80691329538206,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 1,
+          "below200": 1,
+          "mean": 287.44605924272224,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 283.97407079759216,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 287.68864655941957,
+          "n": 2000
+        }
+      ],
+      "best_seed": 4
+    },
+    {
+      "group": "sac/v9big@800k",
+      "eligible": false,
+      "crashes": 7,
+      "below200": 2003,
+      "n": 10000,
+      "mean": 228.92602298976672,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 285.67445932215617,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 1,
+          "below200": 1,
+          "mean": 281.3073351540887,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 0,
+          "below200": 2,
+          "mean": 279.6138450446453,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 6,
+          "below200": 2000,
+          "mean": 14.675087745238569,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 283.3593876827047,
+          "n": 2000
+        }
+      ],
+      "best_seed": 0
+    },
+    {
+      "group": "sac/v9big@1600k",
+      "eligible": true,
+      "crashes": 1,
+      "below200": 1,
+      "n": 10000,
+      "mean": 285.24386769187197,
+      "runs": [
+        {
+          "seed": 0,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 286.0060545528134,
+          "n": 2000
+        },
+        {
+          "seed": 1,
+          "crashes": 1,
+          "below200": 1,
+          "mean": 287.73369062992606,
+          "n": 2000
+        },
+        {
+          "seed": 2,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 284.7747132035047,
+          "n": 2000
+        },
+        {
+          "seed": 3,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 280.8362889600065,
+          "n": 2000
+        },
+        {
+          "seed": 4,
+          "crashes": 0,
+          "below200": 0,
+          "mean": 286.86859111310923,
+          "n": 2000
+        }
+      ],
+      "best_seed": 4
+    }
+  ]
+}
